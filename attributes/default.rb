@@ -14,4 +14,14 @@
 # limitations under the License.
 
 # サーバ上に展開するPDFテンプレート
-default['chef-handler-pdf']['templates']  = %w{00_cover.tlf}
+default['chef-handler-pdf']['templates']  = %w{
+  000_cover.tlf
+  000_index.tlf
+  00_cover.tlf
+  010_notice.tlf
+  020_revision.tlf
+  030_basic.tlf
+  040_system.tlf
+  050_middleware.tlf
+  100_back_cover.tlf
+}
